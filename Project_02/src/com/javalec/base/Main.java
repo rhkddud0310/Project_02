@@ -12,7 +12,9 @@ public class Main {
 	public static void main(String[] args) {
 		/* -------------------------------------------------------------
 		(1) Desc : 절차형으로 개발된 Quiz를 객체형으로 변환하는 프로그램 만들기.
-		(2) Date : 2023.12.06
+		(2) Date
+			1) 2023.12.06.
+			2) 2023.12.07. (rev.1)
 		(3) Author : Gwangyeong Kim
         (4) History
         	1) 최초 작성
