@@ -27,11 +27,10 @@ public class Main {
 		System.out.println("< 절차형으로 개발된 Quiz를 객체형으로 변환. >\n"
 				+ "*** 단, 종료를 선택하기 전까지 계속 사용된다. ***" + "\n");
 		
+		// Property
 		Scanner scan = new Scanner(System.in);
 		int inputNum = 0;	// 원하는 결과물 번호가 저장될 변수
-		String result = "";
-		
-		int num = 0;
+		String result = "";	// 원하는 결과물 결과가 저장될 변수
 		
 		while(true) {
 			System.out.println("1. Ex1\n2. Ex2\n3. Ex3\n4. Ex4\n5. 종료\n");
@@ -39,15 +38,13 @@ public class Main {
 			inputNum = scan.nextInt();
 			System.out.println();
 			if(inputNum == 5) {
-				System.out.println("종료되었습니다.");
+				System.out.println("<<< 종료 버튼을 선택하셨습니다.\n프로그램이 종료되었습니다. >>>");
 				break;
 			}else if(inputNum == 1) {
 				Ex_01 ex_01 = new Ex_01();
 				System.out.println(ex_01.result);	// Ex_01 결과 출력 -> 수진이 누나
 			}else if(inputNum == 2) {
 				Ex_02 ex_02 = new Ex_02();
-//				System.out.print("Input your decimal no. : ");
-//				num = scan.nextInt();
 				ex_02.factorial();	// Ex_02 결과 출력 -> 수민이
 			}else if(inputNum == 3) {
 				Ex_03 ex_03 = new Ex_03();
