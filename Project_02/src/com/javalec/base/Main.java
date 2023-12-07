@@ -39,6 +39,7 @@ public class Main {
 			inputNum = scan.nextInt();
 			System.out.println();
 			if(inputNum == 5) {
+				System.out.println("종료되었습니다.");
 				break;
 			}else if(inputNum == 1) {
 				Ex_01 ex_01 = new Ex_01();
