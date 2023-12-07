@@ -16,16 +16,16 @@ public class Main {
 			1) 2023.12.06.
 			2) 2023.12.07. (rev.1)
 		(3) Author : Gwangyeong Kim
-        (4) History
-        	1) 최초 작성
-        	2) 결과물 구분해주기 위한 구분선 추가
-        		1. System.out.println("------------\n");
-        	3) 결과물 출력 Process 변경
-        		1. System.out.println(ex_02.result); -> ex_02.factorial();
-        		2. System.out.println(ex_03.result); -> ex_03.multiple();
-        		3. System.out.println(ex_04.result); -> ex_04.sumCalc();
-        	4) 종료 문구 추가
-        		1. System.out.println("<<< 종료 버튼을 선택하셨습니다.\n프로그램이 종료되었습니다. >>>");
+		(4) History
+			1) 최초 작성
+			2) 결과물 구분해주기 위한 구분선 추가
+				1. System.out.println("------------\n");
+			3) 결과물 출력 Process 변경
+				1. System.out.println(ex_02.result); -> ex_02.factorial();
+				2. System.out.println(ex_03.result); -> ex_03.multiple();
+				3. System.out.println(ex_04.result); -> ex_04.sumCalc();
+			4) 종료 문구 추가
+				1. System.out.println("<<< 종료 버튼을 선택하셨습니다.\n프로그램이 종료되었습니다. >>>");
 		------------------------------------------------------------- */
 		
 		/* ------------------ 예비 프로젝트 (2) ------------------
